@@ -4,15 +4,15 @@ public class IT24100892Lab5Q1
 	public static void main(String[]arg)
 	{
 		Scanner input = new Scanner (System.in);
-		int num_1, num_2, num_3, min, max ;
-		System.out.print("Enter the firt integer : ");
-		num_1 = input.nextInt();
-		System.out.print("Enter the second integer : ");
-		num_2 = input.nextInt();
-		System.out.print("Enter the third integer : ");
-		num_3 = input.nextInt();
+		int num_1, num_2, num_3, min, max ;					//declare variables
+		System.out.print("Enter the firt integer : ");				//user instructions to enter value
+		num_1 = input.nextInt();						//tacking inputs from keyboard
+		System.out.print("Enter the second integer : ");			//user instructions to enter value
+		num_2 = input.nextInt();						//tacking inputs from keyboard
+		System.out.print("Enter the third integer : ");				//user instructions to enter value
+		num_3 = input.nextInt();						//tacking inputs from keyboard
 		System.out.println("User entered numbers are : "+num_1 + " "+num_2 + " "+num_3);
-		if (num_1 > num_2)
+		if (num_1 > num_2)							//logic to find greatest or smallest
 		{
 		max = num_1;
 		min = num_2;
@@ -30,7 +30,7 @@ public class IT24100892Lab5Q1
 		{
 		min = num_3;
 		}
-		System.out.println("The Smallest number is : "+ min);
+		System.out.println("The Smallest number is : "+ min);			// display output
 		System.out.println("The Largest numbrer is : "+max);
 	}
 }
