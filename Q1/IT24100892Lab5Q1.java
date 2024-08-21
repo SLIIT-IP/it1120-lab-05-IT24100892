@@ -5,7 +5,6 @@ public class IT24100892Lab5Q1
 	{
 		Scanner input = new Scanner (System.in);
 		int num_1, num_2, num_3, min, max ;
-		//int  max, min ;
 		System.out.print("Enter the firt integer : ");
 		num_1 = input.nextInt();
 		System.out.print("Enter the second integer : ");
